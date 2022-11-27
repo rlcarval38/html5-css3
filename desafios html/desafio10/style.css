@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid ;
+    src: url(fonts/idroid.otf) format(opentype);
+}
+body{
+    background-image: linear-gradient(to bottom, #70FF57, #45a734);
+    margin: auto;
+
+}
+main{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-align: justify;
+    
+}
+#cabecalho{
+    background-color:#0F8033 ;
+    background-image: linear-gradient( to bottom, #2FFF0A, #178005   );
+    color: white;
+    width:auto;
+    height: 210px;
+}
+
+h2#sub{
+    font-family: idroid;
+    color:#178005 ;
+    padding: 5px;
+}
+h3{
+    font-family: idroid;
+    color:#178005 ;
+    font-weight: 100px;
+    background-image: linear-gradient(to right,#45d32c88, white);
+    text-indent: 12px;
+    padding: 5px;
+    
+}
+.text1{
+    text-indent: 20px;
+    padding: 5px;
+}
+#final{
+    background-color:rgba(142, 250, 140, 0.596);
+    border-radius: 10px;
+    padding: 10px ;
+    box-shadow: 5px 5px 3px #8fe99ead;
+    width: 750px;
+    margin: auto;
+}
+.text2{
+    text-indent: 30px;
+}
+#final{
+    
+    border: 5px solid black;
+}
+#extra{
+    background-color: #0F8033;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+

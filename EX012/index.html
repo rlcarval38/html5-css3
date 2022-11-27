@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Videos</title>
+</head>
+<body>
+    <h1>Trabalhando com videos</h1>
+    <h2>Inserindo videos hospedados localmente</h2>
+    <p>Este video esta hospedado no meu proprio servidor</p>
+    <video width="500" controls poster="imagem/capa-video.jpg" preload="metadata">
+        <source src="midia/video-principal.mp4" type="video/mp4">
+        <!--POSSO USAR VARIOS TIPOS/TYPES DE ARQUIVOS, MAS QUANTO MENOR FOR MESMO, MENOR SERA O GASTO DO CLIENTE EM SERVIDOR-->
+        <p>Seu navegador nao tem compatibilidade com reprodução de videos</p>
+    </video>
+    <h1>Inserindo video do youtube</h1>
+    <p>Este video esta inserido pelo youtube</p>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/yY8da2XkzzY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

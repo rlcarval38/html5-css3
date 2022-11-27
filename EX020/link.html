@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link- Pseudo Elementos</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+        }
+        a{
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+        .especial:hover{
+            color: green;
+        }
+        /*a:visited{ usa para quando link foi visitado
+            color: yellow;
+        }*/
+        a:after{
+            content:'⬅';
+        }
+        a:before{
+            content:'🠖';
+        }
+        .especial::before{ /*:: sereve para definir o elemento*/
+            content: '» ' ;
+        }
+        .especial::after{
+            content: ' «';
+
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <h1>Criando link com Pseudo  Elementos</h1>
+    <ul>
+        <li>Viste nosso <a href="https://www.facebook.com/rlcarval" target="_blank">Facebook</a> </li>
+        <li>Viste nosso <a href="https://www.youtube.com/channel/UCfbEeIhd7GM5VGPSfZ4kf6w" class="especial" target="_blank">youtube</a> </li>
+        <li>Acesse nosso <a href="https://www.linkedin.com/in/roberto-carvalho-a6a45a254/" target="_blank">linkedin</a> </li>
+    </ul>
+    
+</body>
+</html>

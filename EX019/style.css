@@ -1,0 +1,60 @@
+@charset "UTF-8"; /*para nao ter erro em pagina, como todos acentos*/
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Kalam:wght@300&display=swap');/* usar o @import para colocar uma font direto do google*/
+
+@font-face { /*colocar uma fonte atravez de um download de arquivo*/
+    font-family: love ;
+    src:url(fonts/love\ story\ ttf.ttf) format(truetype);
+}
+@font-face {
+    font-family: blobby;
+    src: url(fonts/BLOBBYCHUG.ttf) format(truetype);
+}
+
+body{
+    background-color: rgb(195, 223, 223);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1#principal{
+    background-color: rgba(63, 16, 233, 0.548);
+    font-family: 'love', cursive;
+    font-weight: 100;
+    text-align: center;
+    color: rgba(247, 23, 53, 0.966);
+}
+h1.secundario{
+    background-color:rgba(63, 16, 233, 0.548);
+    font-family:blobby ;
+    color:rgba(247, 23, 53, 0.842);
+    font-size: 60px;
+    font-weight: 900px;
+
+}
+h1{
+    
+    font-family: 'Kalam', cursive;
+    text-align: center;
+}
+h2{
+    font-family: 'Kalam', cursive;
+    font-style: italic;
+   
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;/*peso na palavra, mais robusta*/
+    text-align: justify;
+    text-indent: 30px;
+}
+.basico{ /*posso usar so o .basico para mostrar a class ou usar h2.class que tambem da certo */
+    color: rgb(0, 119, 255);
+}
+.intermediario{
+    color: rgb(0, 255, 34);
+}
+.avancado{
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+}

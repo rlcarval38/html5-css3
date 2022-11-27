@@ -1,0 +1,92 @@
+@charset "OTF-8";
+@font-face{
+    font-family: idroid;
+    src: url(fonts/idroid.otf)format(opentype)
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:#95CE94;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+    background-image: linear-gradient(to bottom, #98dd97, #2be025);
+    height: 145px;
+}
+header > h1{
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+header > p{
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+nav > a{
+    
+    margin: 10px;
+    padding: 1px;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+nav > a:hover{
+    background-color: #064505;
+}
+article > h2{
+    margin: 10px 10px;
+    font-family: idroid;
+    color: #064505;
+}
+
+main{
+    background-color: white;
+    margin: 0px 100px 0px 100px; 
+}
+h3{
+    background-image: linear-gradient( to right,#98dd97, white );
+    font-family: idroid;
+    color: #2b8a28;
+    margin: 10px;
+    padding: 3px;
+}
+p{
+    text-indent: 15px;
+    text-align: justify;
+    margin: 10px;
+}
+p#video{
+    background-color: #064505;
+    text-indent: 0px;
+    text-align: center;
+    margin: 0px;
+}
+article > h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bold;
+    background-color: #064505;
+    border-radius: 5px;
+    padding: 5px;
+}
+#final{
+    border: 2px solid black ;
+    border-radius: 5px;
+    background-color:#98dd97;
+    margin: 0px 20px 0px 20px;
+
+}
+footer > p{
+    background-color: green; 
+    color: white; 
+    text-align: center;  
+    padding: 2px;
+}
