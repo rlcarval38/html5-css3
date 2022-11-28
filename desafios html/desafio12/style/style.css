@@ -7,7 +7,7 @@
 :root {
 
     --font-padrao:arial, verdana,helvetica, sans-serif;;
-    --font-titulo:'PassioneOne', arial;
+    --font-titulo:'Passion One', cursive;
     --font-texto:'Sriracha', arial;
 }
 
@@ -18,6 +18,7 @@
 body{
     /*margin:center;*/
     background-color: black;
+    font-family: var(--font-padrao);
 }
 header{
     background-color: black;
@@ -26,7 +27,15 @@ header{
     padding: 100px;
 }
 header > h1{
-    font-family: var(--font-titulo);    
+    font-family: var(--font-titulo);
+    /*text-transform: uppercase; DEIXA TODAS LETRAS MAISCULA*/
+
+    font-variant: small-caps;/*DEIXA A PRIMEIRA LETRA DO TEXTO MAIOR COMO LETRAS MAUISCULA*/
+
+
+    font-size: 50px;
+    font-weight: none
+    ;   
 }
 header > p > a {
     text-decoration: none;
@@ -43,6 +52,7 @@ section{
     background-color: white;
     margin:auto;
     padding: 10px;
+    line-height: 3em;/*COLOCA ESPAÇO ENTRE AS LINHAS*/
 }
 
 #flor{
@@ -51,10 +61,11 @@ section{
     color: white;
     text-align: justify;
     background-image: url(../imagens/background001.jpg);
-    background-position: right top;
+    background-position: right center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    box-shadow: 2px 2px 2px 2px rgba(8, 8, 8, 0.342);
+    background: cover;
+    box-shadow: inset 2px 2px 2px 2px rgba(8, 8, 8, 0.342);
    
 }
 .fundopreto{
@@ -63,15 +74,16 @@ section{
     top: 50%;
     transform: translate(-50%, -50%);
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.733), transparent);
-    min-width: 450px;
+    min-width: 350px;
     padding: 15px;
     font-size: 1.5em;
-    word-spacing: 15px;
+    /*word-spacing: 15px;*/
     
 }
 #fundofoto{
     position: relative;
     height: 500px;
+   
 }
 .fundobranco{
     position: absolute;
@@ -81,7 +93,7 @@ section{
     min-width: 450px;
     padding: 5px;
     font-size: 1.5em;
-    word-spacing: 10px;
+    /*word-spacing: 10px;*/
 
 }
 #livro{
@@ -92,7 +104,7 @@ section{
     background-position: right top;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    box-shadow: 4px 4px 4px 4px rgba(8, 8, 8, 0.342);
+    box-shadow: inset 4px 4px 4px 4px rgba(8, 8, 8, 0.342);
    
 }
 article p {
