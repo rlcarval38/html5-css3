@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de tabelas</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 450px;
+            padding: 10px;
+        }
+        td, th{
+            border: 1px solid black;
+        }
+        .cnome{
+            background-color: lightgrey;
+        }
+        .cidade{
+            background-color: aqua;
+        }
+        .cprofissao{
+            background-color: lightpink;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome" span="2">
+            <!--<col class="csexo">-->
+            <col class="cidade">
+            <col class="cprofissao">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Karol</td>
+            <td>F</td>
+            <td>18</td>
+            <td>Nutricionista</td>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Claudio</td>
+            <td>M</td>
+            <td>23</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>F</td>
+            <td>85</td>
+            <td>Professora</td>
+        </tr>
+        <tr>
+            <td>Roberto</td>
+            <td>M</td>
+            <td>34</td>
+            <td>Metalurgico</td>
+        </tr>
+        <tr>
+            <td>maria</td>
+            <td>F</td>
+            <td>39</td>
+            <td>Medica</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table{
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 200px;
+            height: 200px;
+        }
+       td{
+            border: 1px solid black;
+            text-align: center;
+
+       }
+       .mes{
+        background-color: lightgrey;
+       }
+
+    </style>
+</head>
+<body>
+    <h1>Criando tabelas semanticas e mescladas</h1>
+    <table>
+        <tr>
+            <td class="mes" colspan="2">A</td>
+            <td>C</td>
+        </Tr>  
+        <tr>
+            <td class="mes" rowspan="2">D</td>
+            <td>E</td>
+            <td class="mes" rowspan="2">F</td>
+        </Tr>
+        <tr>
+            <td>H</td>
+        </Tr>   
+        <tr>
+            <td class="mes" colspan="2">J</td>
+            <td>L</td>
+        </Tr>       
+    </table>
+</body>
+</html>
