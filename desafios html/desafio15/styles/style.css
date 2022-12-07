@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main{
+    height: 100vh;
+    background-image: url(../image/fundo-madeira.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section{
+    height: 630px;
+    background-image: url(../image/frame-iphone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+div>iframe{
+    border: 1px solid black;
+    
+}
